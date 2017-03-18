@@ -7,7 +7,7 @@ describe('Lista Compras Unitário', function () {
         });
 
         it('deve criar "itens" com 2 ítens', function () {
-            expect(this.$scope.itens.length).toBe(2);
+            expect(this.$scope.itens.length).toBe(3);
         });
 
         describe('adicionaItem', function () {
